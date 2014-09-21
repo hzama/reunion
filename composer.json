@@ -1,0 +1,27 @@
+{
+    "name": "reunion",
+    "type": "Framework",
+    "description": "Rapid Development MVC Framework",
+    "keywords": ["array", "mvc", "dependency injection"],
+    "homepage": "http://www.github.com/fripixel/reunion",
+    "license": "MIT",
+    "authors": [{
+        "name": "Felipe Venturino",
+        "email": "contato@fripxel.com.br",
+        "homepage": "http://www.fripixel.com/reunion/"
+    }],
+    "require": {
+        "php": ">=5.5.0",
+        "twig/twig": "1.*",
+        "php-console/php-console": "3.*"
+    },
+	"repositories": [
+        {
+            "url": "https://github.com/dannyvankooten/AltoRouter",
+            "type": "git"
+        }
+    ],    
+    "autoload": {
+        "classmap": ["system"]
+    }
+}
